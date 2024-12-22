@@ -663,7 +663,7 @@ default_metadata_scheme = get_config_item_or_set_default(
 )
 metadata_created_by = get_config_item_or_set_default(
     key='metadata_created_by',
-    default_value='',
+    default_value='sadoo',
     validator=lambda x: isinstance(x, str),
     expected_type=str
 )
